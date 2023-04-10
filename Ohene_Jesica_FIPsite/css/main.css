@@ -374,6 +374,9 @@ font-size: 15pt;
     text-align: center;
 
   }
+  .sale p { 
+    color: red
+  }
   #reduced{
     text-decoration: line-through;
   }
