@@ -290,10 +290,12 @@ font-size: 15pt;
 	font-size: 20pt;
 	margin-bottom: 100px;
 	text-decoration: none;
-	color:#000}
+	color:#000
+}
 #footer-nav ul li{
 		display:inline;
 		margin-right:28px;
+		text-decoration: none;
 	 
 }
 #footer-nav ul li a:hover {
@@ -329,7 +331,8 @@ font-size: 15pt;
 	grid-column: 11/-1;
 	background-color:#C3DBBA;
 	height: 86px;
-   width:100;}
+   width:100;
+}
 
 
 
@@ -337,7 +340,7 @@ font-size: 15pt;
 
 #gallery-hero-con {
 	background-color: #aaaaaa;
-	background: url("https://via.placeholder.com/1920x580");
+	background: url("../images/hero-image-desktop.png");
 	height: 580px;
 }
 
