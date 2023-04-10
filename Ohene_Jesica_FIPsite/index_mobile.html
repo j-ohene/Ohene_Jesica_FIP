@@ -9,68 +9,76 @@
 <body>
 	<div id="container">
         
-        <div id="header-con">
+       <header id="header-con">
             <div id="main-header" class="grid-con">
-                <img src="https://via.placeholder.com/186x80" alt="image" id="header-logo">
+                <img src="images/crowned-logo.svg" alt="crowned logo" id="header-logo">
                  <div id="mobile-nav">
                     <span class="burger"></span>
                     <span class="burger"></span>
                     <span class="burger"></span>
                  </div>
             </div>    
-        </div> 
+        </header> 
 
-        <main>
-            <div id="hero-con">
-                <div class="grid-con">
-                    <div id="hero-text" class="box-color">
-                    </div>
+     <main>
+        <section id="hero-con"class="grid-con">
+            <div id="hero-text" class="box-color">
+                <img src="images/home-mobile-header.jpg">
+                    <h2>New Spring Drop</h2>
+                        <p>Freshest styles of the season.</p>
+            </section>
                 </div>
             </div>
 
             <div id="image-slider-con">
-                <h2>Blandit At Tuctor</h2>
-                <img src="https://via.placeholder.com/428x240" alt="image">
+                <h2>Up to 70% off</h2>
+                <img src="images/Tops-copy-mobile.jpg" alt="woman in joggers">
                 <!-- ascii symbols for <> -->
                 <span id="mobile-slider-left">&#60</span>
                 <span id="mobile-slider-right">&#62</span>
-            </div>
 
-            <div id="about-us-con">
-                <h2>Blandit At Tuctor</h2>   
-                    <div id="about-us-text-con">     
-                        <div class="grid-con">
-                            <div id="about-us-text" class="box-color">
-                            </div>
-                        </div>      
-                    </div>  
+            <section id="about-us-con">
+                <h2>30% off all accessories</h2>   
+                   <p id="about-us-text-con" >
+                        No better way to complete the look </p>   
+                        <div class="grid-con">  
+                            </section>
+                    <section>
                     <div class="grid-con" id="about-us-photos">
-                        <img src="https://via.placeholder.com/350x350" alt="image" class="about-us-photo">
-                        <img src="https://via.placeholder.com/350x350" alt="image" class="about-us-photo">
-                        <img src="https://via.placeholder.com/350x350" alt="image" class="about-us-photo">
-                        <img src="https://via.placeholder.com/350x350" alt="image" class="about-us-photo">
-                    </div>         
-            </div>
-
-            <div id="contact-us-con">
-                <div class="grid-con">
-                    <div id="contact-text" class="box-color">
-                    </div>
-                    <div id="contact-form" class="box-color">
-                    </div>
-                </div>
-            </div>
+                        <img src="images/Polygon-shades.jpg" alt="large-sunglasses" class="about-us-photo">
+                        <img src="images/Teardrop-necklace.jpg" alt="teardrop pendant necklace" class="about-us-photo">
+                        <img src="images/hoop-earrings.jpg" alt="image" class="about-us-photo">
+                        <img src="images/cat-eye-sunglasses.jpg" alt="image" class="about-us-photo">
+                        </div>         
+                </section>
+              <section class="grid-con" id="contact-us-con"></section>
+              <h3>Feel free to contact us</h3>
+              <p>Feedback is always welcome.Feedback is always welcome bus orci luctus et ultrices posuere cubilia curae; Nam consectetur neque nulla, vel vulputate nisi varius a. Vestibulum sit amet libero eget eros mattis pellentesque. ></h3>
+              </p>
+              </section>
+                 <form action="email.php" method="POST" enctype="text/plain">
+                    <input name="firstName" type="text" placeholder="First Name">
+                        <div class="contact-text" id="box-color"></div>
+                    <input name="lastName" type="text" placeholder="Last Name">
+                        <div class="contact-text" id="box-color"></div>
+                    <input name="email" type="text" placeholder="Email Address">
+                        <div class="contact-text" id="box-color"></div>
+                    <textarea name="msg" placeholder="Comments"></textarea>
+                    <input name="submit" type="submit" value="Submit">
+                </form>
+            </section>
         </main>
 
-        <div id="footer-con">
+        <footer id="footer-con">
             <div class="grid-con">
                 <div id="footer-box">
+                    <img src="images/crowned-logo.svg">
                 </div>
                 <div id="footer-newsletter">
                 </div>
             </div>
         </div>
 
-    </div>
+    </footer>
 </body>
 </html>
