@@ -4,10 +4,10 @@
 /*Remove this rule on your HTML elements as you start to fill them with content*/
 
 .box-color {
-	color: #fff;
-	background: #000;
-	text-align: center;
-	margin: 0;
+    color: #fff;
+    background: #000;
+    text-align: center;
+    margin: 0;
 }
 
 /*basic reset*/
@@ -15,35 +15,34 @@
 /*browsers have built in values for elements so we'll reset a few things to zero, you can add to this or remove items as needed*/
 
 div,p,body,header,footer,section,article,nav { 
-	margin: 0; 
-	padding: 0; 
-}	
+    margin: 0; 
+    padding: 0; 
+}   
 
 img { 
-	border: none; /*Remove border if image is a link*/
-	margin: 0; 
-	padding: 0; 
+    border: none; /*Remove border if image is a link*/
+    margin: 0; 
+    padding: 0; 
 }
 
 /*html selectors*/
 
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 21pt;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 21pt;
 }
 
 /* Remove underlines from links */
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 /*hide elements from browser but show for doc outline*/
 
 .hidden {
-	display: none;
+    display: none;
 }
-
 
 /*Common page elements  */
 
@@ -53,166 +52,166 @@ We center the box using margin 0 auto and give it a fixed width of 1920px.
 you work on and the intended audience */
 
 #container {
-	margin: 0 auto;
-	width: 1920px;
+    margin: 0 auto;
+    width: 1920px;
 }
 
 /* this is our grid based off of our XD file */
 .grid-con {
-	display: grid;
-	grid-template-columns: repeat(12, 122px);
-	grid-column-gap: 16px;
-	padding-left: 140px;
-	padding-right: 140px;
+    display: grid;
+    grid-template-columns: repeat(12, 122px);
+    grid-column-gap: 16px;
+    padding-left: 140px;
+    padding-right: 140px;
 }
 
 #header-con {
-	background-color: #C3DBBA;
-	padding-top: 10px;
-	padding-bottom: 10px;
+    background-color: #C3DBBA;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #header-box1 {
-	grid-column: 1/3;
-	padding-top:20px;
-	background-color:  #C3DBBA;
+    grid-column: 1/3;
+    padding-top:20px;
+    background-color:  #C3DBBA;
 }
 
-#main-nav {	
-	grid-column: 3/11;
-	margin:0;
-	margin-top:10px;
-	margin-left:30px;
-	padding-top:20px;
-	background-color: #C3DBBA;
-	border-left: 2px solid #626262;
-	font-size: 16pt;
-	 
+#main-nav { 
+    grid-column: 3/11;
+    margin:0;
+    margin-top:10px;
+    margin-left:30px;
+    padding-top:20px;
+    background-color: #C3DBBA;
+    border-left: 2px solid #626262;
+    font-size: 16pt;
+     
 }
 
-	 
+     
 
 #main-nav ul li {
-	display:inline;
-	margin-right:28px;}
+    display:inline;
+    margin-right:28px;}
 
 #main-nav ul li a {
-	color:black;
-	 }
+    color:black;
+     }
 #main-nav ul li a:hover {
-	 padding-bottom:8px;
-	 border-bottom: 3px solid #000000;
-	 transition: all 0.3s ease-in-out;}
+     padding-bottom:8px;
+     border-bottom: 3px solid #000000;
+     transition: all 0.3s ease-in-out;}
   
 #header-box2 {
-	grid-column: 11/-1;
-	
+    grid-column: 11/-1;
+    
 
-	/* Remove as content will dictate height */
-	
+    /* Remove as content will dictate height */
+    
 }
 
 /* Specific to index page desktop  */
 
 #hero {
-	margin-top: 100px;
+    margin-top: 100px;
 }
 
 #hero-text {
-	grid-column: 1/8;
-	/* Remove as content will dictate height */
-	height: 582px;
-	background-color: white;
-	color:black
+    grid-column: 1/8;
+    /* Remove as content will dictate height */
+    height: 582px;
+    background-color: white;
+    color:black
 }
 section article h3{
 font-size: 42pt;
 padding-top:40px;
 }
 #hero-image {
-	grid-column: 8/-1;
-	/* Remove as content will dictate height */
+    grid-column: 8/-1;
+    /* Remove as content will dictate height */
 }
 
 #products {
-	margin-top: 100px;
-	margin-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 #products h2 {
-	grid-column: 1/-1;
-	text-align: center;
+    grid-column: 1/-1;
+    text-align: center;
 }
 
 #product1 {
-	grid-column: 1/5;
+    grid-column: 1/5;
 }
 
 #product2 {
-	grid-column: 5/9;
+    grid-column: 5/9;
 }
 
 #product3 {
-	grid-column: 9/-1;
+    grid-column: 9/-1;
 }
 
 .product-box {
-	background-color: black;
-	color:#fff;
-	text-align:center;
+    background-color: black;
+    color:#fff;
+    text-align:center;
 
 }
 
 #about-con {
-	background-color: #C3DBBA;
-	padding-top: 10px;
-	padding-bottom: 10px;
+    background-color: #C3DBBA;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 #polygon-glasses {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	border-radius: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50%;
 }
 
 #teardrop{
-	padding-top:10px;
-	padding-bottom:10px;
-	border-radius: 50%;
-	width: 250px;
-	}
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius: 50%;
+    width: 250px;
+    }
 
 #cat-eye{
-	padding-top: 10px;
-	padding-bottom: 10px;
-	width: 250px;
-	margin-left:600px;
-	border-radius:50%
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 250px;
+    margin-left:600px;
+    border-radius:50%
 }
 
 #hoops{
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-left:600px;
-	border-radius:50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left:600px;
+    border-radius:50%;
 }
 #button{
-	background-color:black;
+    background-color:black;
 }
 #button:hover{
-	cursor: pointer;
+    cursor: pointer;
 }
 #about-title {
-	text-align: center;
+    text-align: center;
 }
 
 #about-text {
-	grid-column: 1/8;
-	background-color: #C3DBBA;
-	color:#666666;
-	padding-bottom:20px;
-	
-	/* Remove as content will dictate height */
+    grid-column: 1/8;
+    background-color: #C3DBBA;
+    color:#666666;
+    padding-bottom:20px;
+    
+    /* Remove as content will dictate height */
 
 }
 #about-text p{
@@ -220,46 +219,45 @@ font-size: 20pt;
 }
 
 #accessories {
-	grid-column: 8/-1;
-	/* Remove as content will dictate height */
+    grid-column: 8/-1;
+    /* Remove as content will dictate height */
 height:550px;
-	
+    
 }
 
 #contact {
-	margin-top: 150px;
-	margin-bottom: 70px;
-	background-color:white
+    margin-top: 150px;
+    margin-bottom: 70px;
+    background-color:white
 }
 
 #contact-text {
-	grid-column: 1/8;
-	color: #707070;
-	margin: 15px;;
+    grid-column: 1/8;
+    color: #707070;
+    margin: 15px;;
 }
 
 #contact-form {
-	grid-column: 8/-1;
-	/* Remove as content will dictate height */
-	height: 600px;
-	padding-top: 80px;
-	background-color:black;
+    grid-column: 8/-1;
+    /* Remove as content will dictate height */
+    height: 600px;
+    padding-top: 80px;
+    background-color:black;
 
 }
 #contact-form form input[type=text]{
-	padding:10px;
-	margin-bottom: 25px;
-	font-size: 24pt;
+    padding:10px;
+    margin-bottom: 25px;
+    font-size: 24pt;
 }
 #contact-form form textarea{
-	padding-bottom:45px;
-	margin-left: 90px;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size: 24pt; 
+    padding-bottom:45px;
+    margin-left: 90px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24pt; 
 }
 
 /*Common page elements  */
-
 
 .box-color input:last-child {
 background-color: #C3DBBA;
@@ -270,116 +268,122 @@ font-size: 15pt;
 /*Common page elements  */
 
 #footer-con {
-	background-color: #C3DBBA;
-	padding-top: 50px;
-	padding-bottom: 20px;
+    background-color: #C3DBBA;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 #footer-logo {
-	grid-column: 1/3;
-	background-color:#C3DBBA;
-	
-	
+    grid-column: 1/3;
+    background-color:#C3DBBA;
+    
+    
 }
 
 #footer-nav {
-	grid-column: 3/-1;
-	margin:0;
-	background-color: #C3DBBA;
-	border-left: 2px solid #626262;
-	font-size: 20pt;
-	margin-bottom: 100px;
-	text-decoration: none;
-	color:#000
+    grid-column: 3/-1;
+    margin:0;
+    background-color: #C3DBBA;
+    border-left: 2px solid #626262;
+    font-size: 20pt;
+    margin-bottom: 100px;
+    text-decoration: none;
+    color:#000
 }
 #footer-nav ul li{
-		display:inline;
-		margin-right:28px;
-		text-decoration: none;
-	 
+        display:inline;
+        margin-right:28px;
+        text-decoration: none;
+     
 }
 #footer-nav ul li a:hover {
-	padding-bottom:8px;
-	border-bottom: 3px solid #000000;
-	transition: all 0.3s ease-in-out;}
+    padding-bottom:8px;
+    border-bottom: 3px solid #000000;
+    transition: all 0.3s ease-in-out;}
 
 #footer-newsletter1 {
-	grid-column: 1/5;
-	width:536px;
-	height:80px;
-	background-color: #C3DBBA;
+    grid-column: 1/5;
+    width:536px;
+    height:80px;
+    background-color: #C3DBBA;
 
 }
 #footer-newsletter1 p{
-	font-size: 16pt;}
+    font-size: 16pt;
+     color:black}
 #footer-newsletter1 [input=text]{
-	background-color: #aaaaaa;
-	width:536px;
-	height:80px;
+    background-color: #aaaaaa;
+    width:536px;
+    height:80px;
 }
 
 #footer-newsletter2 {
-	grid-column: 5/7;
-	/* Remove as content will dictate height */
-	height: 80px;
-	background-color: #C3DBBA;
+    grid-column: 5/7;
+    /* Remove as content will dictate height */
+    height: 80px;
+    background-color: #C3DBBA;
 }
 #footer-newsletter2 [input=submit]{
-	background-color: #aaaaaa;}
+    background-color: #aaaaaa;}
 
 #footer-social {
-	grid-column: 11/-1;
-	background-color:#C3DBBA;
-	height: 86px;
+    grid-column: 11/-1;
+    background-color:#C3DBBA;
+    height: 86px;
    width:100;
 }
-
 
 
 /* gallery page */
 
 #gallery-hero-con {
-	background-color: #aaaaaa;
-	background: url("../images/hero-image-desktop.png");
-	height: 580px;
+    background-color: #aaaaaa;
+    background: url("../images/hero-image-desktop.png");
+    height: 580px;
 }
 
 #gallery-text {
-	grid-column: 1/9;
-	/* Remove as content will dictate height */
-	height: 200px;
-	margin-top: 100px;
+    grid-column: 1/9;
+    /* Remove as content will dictate height */
+    height: 200px;
+    margin-top: 100px;
 }
 
 #gallery-controls {
-	margin-top: 200px;
-	grid-column: 6/8;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    margin-top: 200px;
+    grid-column: 6/8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .dot {
-	background-color: #dddddd;
-	height: 30px;
-	width: 30px;
-	border-radius: 50%;
-	margin: 5px;
+    background-color: #dddddd;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 5px;
   }
 
 #gallery h2 {
-	grid-column: 1/-1;
-	text-align: center;
+    grid-column: 1/-1;
+    text-align: center;
   }
   .p{
-	padding-bottom: 50px;
-	text-align: center;
+    padding-bottom: 50px;
+    text-align: center;
 
+  }
+
+  #reduced{
+    text-decoration: line-through;
   }
 
 .gallery-box {
-	background-color: #ddd;
-	grid-column: span 4 / span 4;
-	/* Remove as content will dictate height */
-	margin-bottom: 20px;
+    background-color: #ddd;
+    grid-column: span 4 / span 4;
+    /* Remove as content will dictate height */
+    margin-bottom: 20px;
 }
+
+
