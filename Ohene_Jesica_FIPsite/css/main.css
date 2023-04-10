@@ -309,7 +309,8 @@ font-size: 15pt;
 
 }
 #footer-newsletter1 p{
-    font-size: 16pt;}
+    font-size: 16pt;
+     color:black}
 #footer-newsletter1 [input=text]{
     background-color: #aaaaaa;
     width:536px;
@@ -372,6 +373,9 @@ font-size: 15pt;
     padding-bottom: 50px;
     text-align: center;
 
+  }
+  #reduced{
+    text-decoration: line-through;
   }
 
 .gallery-box {
