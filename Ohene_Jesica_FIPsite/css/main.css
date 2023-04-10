@@ -74,11 +74,11 @@ you work on and the intended audience */
 
 #header-box1 {
 	grid-column: 1/3;
-	padding-top:20px;;
+	padding-top:20px;
 	background-color:  #C3DBBA;
 }
 
-#main-nav {
+#main-nav {	
 	grid-column: 3/11;
 	margin:0;
 	margin-top:10px;
@@ -87,17 +87,21 @@ you work on and the intended audience */
 	background-color: #C3DBBA;
 	border-left: 2px solid #626262;
 	font-size: 16pt;
+	 
 }
+	 
+
 #main-nav ul li {
 	display:inline;
 	margin-right:28px;}
+
 #main-nav ul li a {
 	color:black;
 	 }
 #header-box2 {
 	grid-column: 11/-1;
 	/* Remove as content will dictate height */
-	height: 70px;
+	
 }
 
 /* Specific to index page desktop  */
@@ -115,7 +119,6 @@ you work on and the intended audience */
 #hero-image {
 	grid-column: 8/-1;
 	/* Remove as content will dictate height */
-	height: 582px;
 }
 
 #products {
@@ -199,15 +202,21 @@ you work on and the intended audience */
 
 #footer-logo {
 	grid-column: 1/3;
-	/* Remove as content will dictate height */
-	height: 80px;
+	background-image: url(../images/crowned-logo.svg);
 }
 
 #footer-nav {
 	grid-column: 3/-1;
-	/* Remove as content will dictate height */
-	height: 80px;
+	margin:0;
+	background-color: #C3DBBA;
+	border-left: 2px solid #626262;
+	font-size: 16pt;
 	margin-bottom: 100px;
+}
+#footer-nav ul li{
+		display:inline;
+		margin-right:28px;
+	 
 }
 
 #footer-newsletter1 {

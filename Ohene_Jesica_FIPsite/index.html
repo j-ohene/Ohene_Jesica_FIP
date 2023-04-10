@@ -20,7 +20,7 @@
                         <li><a href="#">New Arrivals</a></li>
                         <li><a href="#">Clothing</a></li>
                         <li><a href="#">Shoes</a></li>
-                        <li><a href="#">Access ories</a></li>
+                        <li><a href="#">Accessories</a></li>
                         <li><a href="gallery.html">Sale</a></li>
                        
                     </ul>
@@ -35,7 +35,7 @@
             <div class="grid-con" id="hero">
                 <div id="hero-text" class="box-color">
                 </div>
-                <img src="https://via.placeholder.com/674x582" alt="image" id="hero-image">
+                <img src="images/Home-header.jpg" alt="Group of friends" id="hero-image">
             </div>  
 
             <div class="grid-con" id="products">
@@ -60,10 +60,22 @@
                 </div>
             </div>
             
-            <div class="grid-con" id="contact">
+            <section class="grid-con" id="contact">
                 <div id="contact-text" class="box-color">
                 </div>
                 <div id="contact-form" class="box-color">
+                    
+                
+                    <h3 class="hidden">Contact Us Form</h3>
+                    <form id="contact-form" class="box-color" action="email.php" method="POST" enctype="text/plain">
+                        <input name="firstName" type="text" placeholder="First Name">
+                        <input name="lastname" type="text" required placeholder="Last Name">
+                        <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
+                        <input name="submit" type="submit" value="Send">
+                    </form>
+                </section>
+
+
                 </div>
             </div> 
         </main>
@@ -72,8 +84,16 @@
             <div class="grid-con" id="footer">
                 <div id="footer-logo" class="box-color">
                 </div>
-                <div id="footer-nav" class="box-color">
-                </div>
+                <nav id="footer-nav" class="box-color">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Clothing</a></li>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="gallery.html">Sale</a></li>
+                    </ul>
+                </nav>
                 <div id="footer-newsletter1" class="box-color">
                 </div>
                 <div id="footer-newsletter2" class="box-color">
