@@ -371,11 +371,15 @@ font-size: 15pt;
 	grid-column: 1/-1;
 	text-align: center;
   }
+  .p{
+	padding-bottom: 50px;
+	text-align: center;
+
+  }
 
 .gallery-box {
 	background-color: #ddd;
 	grid-column: span 4 / span 4;
 	/* Remove as content will dictate height */
-	height: 507px;
 	margin-bottom: 20px;
 }
