@@ -7,7 +7,7 @@
 </head>
 <!-- students must convert divs to semantic tags -->
 <body>
-	<div id="container">
+	<header id="container">
         
         <div id="header-con">
             <nav id="main-header" class="grid-con">
@@ -25,59 +25,63 @@
                        
                     </ul>
                 </nav>
-                </div>
-                <div id="header-box2" class="box-color">
-                </div>
+            </header>
+            <div id="header-box2" class="box-color"></div>
+           
             </div>
         </div> 
 
         <main>
-            <div class="grid-con" id="hero">
-                <div id="hero-text" class="box-color">
-                </div>
+            <section class="grid-con" id="hero">
+                <article id="hero-text" class="box-color">
+                    <h3>New Spring Drop</h3>
+                    <p>Freshest styles of the season</p>
+                </article>
                 <img src="images/Home-header.jpg" alt="Group of friends" id="hero-image">
-            </div>  
+            </section>  
 
-            <div class="grid-con" id="products">
-                <h2>Blandit At Tuctor</h2>
-                <div class="product-box" id="product1">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="product-box" id="product2">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="product-box" id="product3">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-            </div>
+            <section class="grid-con" id="products">
+                <h2>Up to 70% off</h2>
+                <article class="product-box" id="product1">
+                    <img src="images/Tops copy.jpg" alt="white tube top">
+                    <h2>Tops</h2>
+                </article>
+                <article class="product-box" id="product2">
+                    <img src="images/bottoms-model.jpg" alt="black Joggers">
+                    <h2>Bottoms</h2>
+                </article>
+                <article class="product-box" id="product3">
+                    <img src="images/Denim.jpg" alt="jeans">
+                    <h2>Denim</h2>
+                </article>
+            </section>
 
-            <h2 id="about-title">Blandit At Tuctor</h2>
-            <div id="about-con">
-                <div class="grid-con" id="about">
-                    <div id="about-text" class="box-color">
-                    </div>
-                    <img src="https://via.placeholder.com/674x700" alt="image" id="about-image">
-                </div>
-            </div>
-            
-            <section class="grid-con" id="contact">
-                <div id="contact-text" class="box-color">
-                </div>
-                <div id="contact-form" class="box-color">
-                    
-                
-                    <h3 class="hidden">Contact Us Form</h3>
-                    <form id="contact-form" class="box-color" action="email.php" method="POST" enctype="text/plain">
-                        <input name="firstName" type="text" placeholder="First Name">
+        <Section>
+              <h2 id="about-title">30% off Accessories</h2>
+              <article id="about-con">
+                 <div class="grid-con" id="about">
+                    <h3 id="about-text" class="box-color">
+                        No better way to complete the look </h3>
+                        <p id="about-text">
+                        We have a variety of options to suit any occasion.</p>
+                    <img src="images/Polygon-shades.jpg" alt="image" id="about-image">
+                </article>
+      </section>
+          <section class="contact-text" id="box-color">
+             <h3> Feel free to contact us</h3>
+                <p>Feedback is always welcome</p>
+            <h3 class="hidden">Contact Us Form</h3>
+            <div  class="grid-con" id="contact">
+             <form id="contact-form" class="box-color" action="email.php" method="POST" enctype="text/plain">
+                    <input name="firstName" type="text" placeholder="First Name" >
                         <input name="lastname" type="text" required placeholder="Last Name">
-                        <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
-                        <input name="submit" type="submit" value="Send">
+                        <input name="email" type="text" required placeholder="Email Address">
+                        <textarea name="msg" placeholder="comments"></textarea>
+                        <input name="submit" type="submit" value="Submit">
                     </form>
-                </section>
-
-
                 </div>
-            </div> 
+         </section>
+
         </main>
 
         <div id="footer-con">
