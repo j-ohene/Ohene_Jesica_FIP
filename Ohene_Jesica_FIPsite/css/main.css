@@ -242,10 +242,8 @@ height:550px;
     /* Remove as content will dictate height */
     height: 600px;
     padding-top: 80px;
-    background-color:black;
-
 }
-#contact-form form input[type=text]{
+#contact-form input[type=text]{
     padding:10px;
     margin-bottom: 25px;
     font-size: 24pt;
@@ -270,7 +268,6 @@ font-size: 15pt;
 #footer-con {
     background-color: #C3DBBA;
     padding-top: 50px;
-    padding-bottom: 20px;
 }
 
 #footer-logo {
@@ -306,15 +303,14 @@ font-size: 15pt;
     width:536px;
     height:80px;
     background-color: #C3DBBA;
-
 }
-#footer-newsletter1 p{
-    font-size: 16pt;
-     color:black}
-#footer-newsletter1 [input=text]{
-    background-color: #aaaaaa;
-    width:536px;
-    height:80px;
+#footer-newsletter input {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 12pt;
+	border:none;
 }
 
 #footer-newsletter2 {
@@ -323,14 +319,28 @@ font-size: 15pt;
     height: 80px;
     background-color: #C3DBBA;
 }
-#footer-newsletter2 [input=submit]{
-    background-color: #aaaaaa;}
+
+
+#footer-newsletter2 input{
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+color: white;
+background-color: black;
+border:none
+}
 
 #footer-social {
     grid-column: 11/-1;
     background-color:#C3DBBA;
-    height: 86px;
-   width:100;
+    height: 150px;
+    width: 50px;
+    margin-left: 1400px;
+}
+#footer-social img:first-child{
+    width:50px;
+    height: 50px;
 }
 
 
@@ -347,6 +357,9 @@ font-size: 15pt;
     /* Remove as content will dictate height */
     height: 200px;
     margin-top: 100px;
+    color:rgb(249, 249, 194);
+    text-align: center;
+    background: none;
 }
 
 #gallery-controls {
@@ -369,21 +382,22 @@ font-size: 15pt;
     grid-column: 1/-1;
     text-align: center;
   }
-  .p{
+.p{
     padding-bottom: 50px;
     text-align: center;
 
   }
-
-  #reduced{
-    text-decoration: line-through;
-  }
-
+.gallery-box p:nth-child(odd){
+	color: red;
+}
+.gallery-box p:last-child{
+	text-decoration: line-through;
+}
 .gallery-box {
-    background-color: #ddd;
+    background-color: white;
     grid-column: span 4 / span 4;
-    /* Remove as content will dictate height */
     margin-bottom: 20px;
+    text-align: center;
 }
 
 
