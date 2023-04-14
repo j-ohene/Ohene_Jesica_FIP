@@ -242,10 +242,8 @@ height:550px;
     /* Remove as content will dictate height */
     height: 600px;
     padding-top: 80px;
-    background-color:black;
-
 }
-#contact-form form input[type=text]{
+#contact-form input[type=text]{
     padding:10px;
     margin-bottom: 25px;
     font-size: 24pt;
@@ -270,7 +268,6 @@ font-size: 15pt;
 #footer-con {
     background-color: #C3DBBA;
     padding-top: 50px;
-    padding-bottom: 20px;
 }
 
 #footer-logo {
@@ -337,8 +334,13 @@ border:none
 #footer-social {
     grid-column: 11/-1;
     background-color:#C3DBBA;
-    height: 80px;
+    height: 150px;
     width: 50px;
+    margin-left: 1400px;
+}
+#footer-social img:first-child{
+    width:50px;
+    height: 50px;
 }
 
 
@@ -394,7 +396,6 @@ border:none
 .gallery-box {
     background-color: white;
     grid-column: span 4 / span 4;
-    /* Remove as content will dictate height */
     margin-bottom: 20px;
     text-align: center;
 }
