@@ -380,7 +380,7 @@ font-size: 15pt;
   }
 
 .gallery-box {
-    background-color: #ddd;
+    background-color: white;
     grid-column: span 4 / span 4;
     /* Remove as content will dictate height */
     margin-bottom: 20px;
