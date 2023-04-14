@@ -7,10 +7,9 @@
 </head>
 <!-- students must convert divs to semantic tags -->
 <body>
-	<div id="container"> 
-       <header id="header-con">
-            <div id="main-header" class="grid-con">
-                <img src="images/crowned-logo.svg" alt="crowned logo" id="header-logo">
+	<header id="container"> 
+       <div id="header-con">
+            <nav id="main-header" class="grid-con">
                  <div id="mobile-nav">
                     <span class="burger"></span>
                     <span class="burger"></span>
@@ -29,12 +28,13 @@
                 </div>
             </div>
 
-            <div id="image-slider-con">
+            <section id="image-slider-con">
                 <h2>Up to 70% off</h2>
-                <img src="images/Tops-copy-mobile.jpg" alt="woman in joggers">
+                <img  src="images/Tops-copy-mobile.jpg" alt="woman in joggers">
                 <!-- ascii symbols for <> -->
                 <span id="mobile-slider-left">&#60</span>
                 <span id="mobile-slider-right">&#62</span>
+                </section>
 
             <section id="about-us-con">
                 <h2>30% off all accessories</h2>   
@@ -51,9 +51,11 @@
                         </div>         
                 </section>
               <section class="grid-con" id="contact-us-con"></section>
-              <h3>Feel free to contact us</h3>
-              <p>Feedback is always welcome.Feedback is always welcome bus orci luctus et ultrices posuere cubilia curae; Nam consectetur neque nulla, vel vulputate nisi varius a. Vestibulum sit amet libero eget eros mattis pellentesque. ></h3>
-              </p>
+              <h3 id="contact-text">Feel free to contact us</h3>
+              <p id="contact-text" >Feedback is always welcome. email us at questions@crowned.ca</p>
+              <p id="contact-text" >
+                1002 Bathurst street, 
+                London ON, N5V 3LW</p>
               </section>
                  <form action="email.php" method="POST" enctype="text/plain">
                     <input name="firstName" type="text" placeholder="First Name">

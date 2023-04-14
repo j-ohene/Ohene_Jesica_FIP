@@ -95,7 +95,9 @@
     align-items: center;
     margin-top: 20px;
 }
-
+#reduced{
+        text-decoration: line-through;
+      }
 .dot {
     background-color: #dddddd;
     height: 30px;
