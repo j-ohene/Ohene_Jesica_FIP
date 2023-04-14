@@ -329,8 +329,8 @@ font-size: 15pt;
 #footer-social {
     grid-column: 11/-1;
     background-color:#C3DBBA;
-    height: 86px;
-   width:100;
+    height: 80px;
+    width: 50px;
 }
 
 
@@ -347,6 +347,9 @@ font-size: 15pt;
     /* Remove as content will dictate height */
     height: 200px;
     margin-top: 100px;
+    color:rgb(249, 249, 194);
+    text-align: center;
+    background: none;
 }
 
 #gallery-controls {
@@ -369,21 +372,24 @@ font-size: 15pt;
     grid-column: 1/-1;
     text-align: center;
   }
-  .p{
+.p{
     padding-bottom: 50px;
     text-align: center;
 
   }
 
-  #reduced{
+ #reduced{
     text-decoration: line-through;
   }
-
+#price{
+    color:red;
+}
 .gallery-box {
     background-color: white;
     grid-column: span 4 / span 4;
     /* Remove as content will dictate height */
     margin-bottom: 20px;
+    text-align: center;
 }
 
 
