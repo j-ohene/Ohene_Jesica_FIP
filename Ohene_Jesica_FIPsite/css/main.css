@@ -306,15 +306,14 @@ font-size: 15pt;
     width:536px;
     height:80px;
     background-color: #C3DBBA;
-
 }
-#footer-newsletter1 p{
-    font-size: 16pt;
-     color:black}
-#footer-newsletter1 [input=text]{
-    background-color: #aaaaaa;
-    width:536px;
-    height:80px;
+#footer-newsletter input {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 12pt;
+	border:none;
 }
 
 #footer-newsletter2 {
@@ -323,8 +322,17 @@ font-size: 15pt;
     height: 80px;
     background-color: #C3DBBA;
 }
-#footer-newsletter2 [input=submit]{
-    background-color: #aaaaaa;}
+
+
+#footer-newsletter2 input{
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+color: white;
+background-color: black;
+border:none
+}
 
 #footer-social {
     grid-column: 11/-1;
@@ -377,12 +385,11 @@ font-size: 15pt;
     text-align: center;
 
   }
-
- #reduced{
-    text-decoration: line-through;
-  }
-#price{
-    color:red;
+.gallery-box p:nth-child(odd){
+	color: red;
+}
+.gallery-box p:last-child{
+	text-decoration: line-through;
 }
 .gallery-box {
     background-color: white;

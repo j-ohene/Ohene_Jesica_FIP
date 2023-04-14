@@ -187,13 +187,12 @@ you work on and the intended audience, we may go as low as 320px */
 
 #footer-con {
 	height: 370px;
-	background-color:black;
+	background-color:#C3DBBA;
 }
 
 #footer-box {
 	margin-top: 40px;
 	/* Remove as content will dictate height */
-	height:45px;
 	grid-column: 1/3;
 	background-color: #C3DBBA;
 }
@@ -201,7 +200,6 @@ you work on and the intended audience, we may go as low as 320px */
 #footer-newsletter {
 	margin-top: 100px;
 	/* Remove as content will dictate height */
-	height:100px;
 	grid-column: 1/-1;
 	background-color: #C3DBBA;
 }
@@ -253,20 +251,38 @@ you work on and the intended audience, we may go as low as 320px */
 	text-align:center
 
 }
-#reduced{
-	text-decoration: line-through;
-	
+
+.gallery-box p:nth-child(odd){
+	color: red;
 }
-#price{
-	color: rgb(240, 4, 4)
+.gallery-box p:last-child{
+	text-decoration: line-through;
 }
 .gallery-box img{ 
 	width: 406px;
 	height: 397px;
 }
+#footer-newsletter input {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 12pt;
+	border:none;
+}
+	
 #footer-newsletter2 {
 	margin-top: 20px;
 	height:40px;
 	grid-column: 1/3;
-	background-color: #ddd;
+	background-color:#C3DBBA
+}
+#footer-newsletter2 input{
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+color: white;
+background-color: black;
+border:none
 }
